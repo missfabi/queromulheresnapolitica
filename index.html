@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Candidatas DF 2026</title>
+<style>
+:root {
+  --bg:#fbf8ff; --card:#ffffff; --ink:#2f2537; --muted:#6f6279; --line:#e6dbf2;
+  --accent:#8f67c7; --accent-dark:#744fb0; --soft:#f2ecfb; --chip:#f3eef9; --shadow:0 10px 30px rgba(97,72,138,.10);
+}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(180deg,#f9f4ff 0%,#fffdfd 46%,#f8f5ff 100%);color:var(--ink);font:14px/1.45 Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+.wrap{max-width:1500px;margin:auto;padding:28px}
+.hero{background:linear-gradient(135deg,#fff 0%,#f3ebff 100%);border:1px solid var(--line);border-radius:24px;padding:24px 26px;box-shadow:var(--shadow);margin-bottom:18px}
+.hero-head{display:flex;align-items:flex-start;gap:16px}
+.hero-icon{font-size:44px;line-height:1;filter:saturate(1.05)}
+h1{margin:0 0 8px;font-size:28px;letter-spacing:-.02em;color:var(--accent-dark)}
+.subtitle{color:var(--muted);margin:0;max-width:1000px}
+.creator{margin-top:9px;color:var(--muted);font-size:13px}.creator a{color:var(--accent-dark);font-weight:700;text-decoration:none}.creator a:hover{text-decoration:underline}
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.pill{background:var(--soft);border:1px solid #d8c6ef;border-radius:999px;padding:6px 10px;font-size:13px}
+.toolbar{display:grid;grid-template-columns:1.5fr repeat(6,minmax(140px,.6fr));gap:10px;margin:16px 0}
+input,select{width:100%;border:1px solid var(--line);background:#fff;border-radius:12px;padding:10px 12px;color:var(--ink);outline:none}
+input:focus,select:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(143,103,199,.12)}
+.tabs{display:flex;gap:8px;margin:10px 0 14px;flex-wrap:wrap}
+.tab{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 13px;cursor:pointer}
+.tab.active{background:var(--accent);color:white;border-color:var(--accent)}
+.summary{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 14px;color:var(--muted)}
+.summary b{color:var(--ink)}
+.table-card{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);overflow:hidden}
+.table-scroll{overflow:auto;max-height:72vh}
+table{border-collapse:separate;border-spacing:0;width:100%;min-width:1750px}
+thead th{position:sticky;top:0;background:#f6f0ff;z-index:5;border-bottom:1px solid var(--line);padding:11px 10px;text-align:left;font-size:12px;color:#5b4f58;cursor:pointer;white-space:nowrap}
+tbody td{padding:11px 10px;border-bottom:1px solid #efe8f7;vertical-align:top}
+tbody tr:hover{background:#fcf9ff}
+.fav-cell{width:54px;text-align:center}
+.fav-btn{border:0;background:transparent;cursor:pointer;font-size:22px;line-height:1;padding:2px 4px;color:#b9a8c9;transition:transform .15s ease,color .15s ease}
+.fav-btn:hover{transform:scale(1.15)}
+.fav-btn.active{color:#8f67c7}
+.name{font-weight:700;min-width:190px}
+.num{font-variant-numeric:tabular-nums}
+.badges{white-space:nowrap;font-size:17px;letter-spacing:1px}
+.raca,.partido{white-space:nowrap}
+.link a{display:inline-block;text-decoration:none;color:var(--accent-dark);font-weight:700;background:var(--soft);border-radius:999px;padding:5px 9px}
+.muted{color:var(--muted)}
+.footer{color:var(--muted);font-size:12px;margin:12px 2px 0}
+.count{background:var(--chip);border-radius:999px;padding:3px 8px}
+@media(max-width:900px){.toolbar{grid-template-columns:1fr 1fr} .toolbar input{grid-column:1/-1} .wrap{padding:14px} h1{font-size:23px} .hero-head{align-items:flex-start} .hero-icon{font-size:38px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="hero">
+    <div class="hero-head">
+      <div class="hero-icon" aria-hidden="true">💃</div>
+      <div>
+        <h1>Quero Deputadas Mulheres!</h1>
+        <p class="subtitle"><em>Trajetórias, propostas e perfis de candidatas do DF em 2026</em></p>
+        <p class="creator">Idealizado por <strong>Fabi Ruas</strong> · 
+          <a href="https://www.instagram.com/faruas/" target="_blank" rel="noopener">Instagram @faruas</a> · 
+          <a href="https://www.linkedin.com/in/faruas/" target="_blank" rel="noopener">LinkedIn @faruas</a>
+        </p>
+      </div>
+    </div>
+
+    <div style="margin-top:16px;padding:16px 18px;background:#fff;border:1px solid var(--line);border-radius:16px">
+      <p style="margin:0 0 10px"><strong>Universo eleitoral pesquisado:</strong> 151 mulheres candidatas a deputada distrital, 64 mulheres candidatas a deputada federal e 4 mulheres entre as 13 candidaturas ao Senado no Distrito Federal em 2026.</p>
+      <p style="margin:0 0 10px">As tabelas abaixo não reproduzem automaticamente todas as candidaturas. Foi aplicado um <strong>recorte substantivo</strong>: permanecem apenas candidatas para as quais foram localizadas informações públicas suficientes para uma análise minimamente comparável de trajetória, atuação pública e/ou propostas para 2026.</p>
+      <p style="margin:0">Por isso, a tabela reúne <strong>26 candidatas a deputada distrital</strong>, <strong>24 candidatas a deputada federal</strong> e <strong>as 4 candidatas ao Senado</strong>. No Senado, como o universo feminino é pequeno, nenhuma candidata foi excluída pelo recorte substantivo. Ficar fora da tabela <strong>não significa ausência de trajetória ou propostas</strong>; significa apenas que, após as varreduras realizadas, não foi localizado material público substantivo suficiente para aplicar a mesma régua comparativa.</p>
+    </div>
+
+    <div class="legend">
+      <span class="pill">❤️ trajetória documentada no enfrentamento à violência contra a mulher</span>
+      <span class="pill">⭐ proposta de 2026 sobre enfrentamento à violência contra a mulher</span>
+      <span class="pill">✏️ programa/propostas de 2026 suficientemente detalhados</span>
+      <span class="pill">⚠️ situação eleitoral que merece ressalva</span>
+      <span class="pill">☆ clique para favoritar uma candidata</span>
+    </div>
+    <p style="margin:12px 0 0;color:var(--muted);font-size:12.5px"><strong>Como pretende atuar sobre violência contra a mulher:</strong> classifica o mecanismo explicitamente identificado na proposta em <strong>Legislação</strong>, <strong>Orçamento</strong>, <strong>Fiscalização</strong>, <strong>Articulação institucional</strong> e/ou <strong>Prevenção/agenda pública</strong>. A ausência de uma categoria não significa que a medida não possa produzi-la indiretamente; apenas que ela não foi localizada de forma explícita.</p>
+  </section>
+
+  <div class="tabs">
+    <button class="tab active" data-cargo="Todos">Todas</button>
+    <button class="tab" data-cargo="Distrital">Distritais</button>
+    <button class="tab" data-cargo="Federal">Federais</button>
+    <button class="tab" data-cargo="Senado">Senado</button>
+  </div>
+
+  <div class="toolbar">
+    <input id="search" placeholder="🔎 Buscar por nome, partido, trajetória, proposta...">
+    <select id="party"><option value="">Todos os partidos</option></select>
+    <select id="race"><option value="">Todas as raças/cores</option></select>
+    <select id="marker">
+      <option value="">Todos os marcadores</option>
+      <option value="❤️">❤️ Trajetória</option>
+      <option value="⭐">⭐ Proposta</option>
+      <option value="✏️">✏️ Programa detalhado</option>
+      <option value="⚠️">⚠️ Ressalva eleitoral</option>
+    </select>
+    <select id="violence">
+      <option value="">Violência contra mulher: todos</option>
+      <option value="sim">Com ❤️ ou ⭐</option>
+      <option value="nao">Sem ❤️ e sem ⭐</option>
+    </select>
+    <select id="favorites">
+      <option value="">Todas as candidatas</option>
+      <option value="sim">★ Somente favoritas</option>
+    </select>
+    <select id="actionType">
+      <option value="">Todas as formas de atuação</option>
+      <option value="Legislação">Legislação</option>
+      <option value="Orçamento">Orçamento</option>
+      <option value="Fiscalização">Fiscalização</option>
+      <option value="Articulação institucional">Articulação institucional</option>
+      <option value="Prevenção/agenda pública">Prevenção/agenda pública</option>
+    </select>
+  </div>
+
+  <div class="summary">
+    <span class="count">Exibindo <b id="shown">0</b></span>
+    <span class="count">Distritais selecionadas: <b>26</b></span>
+    <span class="count">Federais selecionadas: <b>24</b></span>
+    <span class="count">Senado: <b>4</b></span>
+  </div>
+
+  <div class="table-card">
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th title="Favoritar">★</th>
+            <th data-key="cargo">Cargo</th>
+            <th data-key="nome">Nome</th>
+            <th data-key="numero">Número</th>
+            <th data-key="partido">Partido</th>
+            <th data-key="raca">Raça/cor autodeclarada</th>
+            <th data-key="simbolos">Marcadores</th>
+            <th data-key="trajetoria">Trajetória documentada</th>
+            <th data-key="traj_vcm">Trajetória sobre violência contra a mulher</th>
+            <th data-key="propostas">Propostas para 2026</th>
+            <th data-key="prop_vcm">Propostas sobre violência contra a mulher</th>
+            <th data-key="atuacao_vcm">Como pretende atuar</th>
+            <th>Instagram / site</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+  </div>
+  <div style="margin-top:16px;padding:14px 16px;background:#f5f0fb;border:1px solid var(--line);border-radius:14px;color:var(--muted);font-size:12.5px;line-height:1.5">
+    <strong style="color:var(--ink)">Uso de IA:</strong> este projeto contou com apoio de dois modelos distintos de inteligência artificial generativa para busca, organização e comparação de informações públicas. Os resultados foram confrontados entre si e verificados, sempre que possível, em fontes oficiais e primárias. A definição dos critérios, a seleção das candidatas e a consolidação final das informações foram realizadas sob responsabilidade humana.
+  </div>
+
+  <p class="footer">Última auditoria: 29/09/2026. Fonte de trabalho: consolidação desta pesquisa com dados eleitorais e materiais públicos das candidatas. “Raça/cor” corresponde à autodeclaração eleitoral. Onde não houve documentação suficiente, o campo foi mantido como “não localizado” ou equivalente.<br><strong>Idealização: Fabi Ruas</strong> · <a href="https://www.instagram.com/faruas/" target="_blank" rel="noopener">@faruas no Instagram</a> · <a href="https://www.linkedin.com/in/faruas/" target="_blank" rel="noopener">@faruas no LinkedIn</a></p>
+</div>
+
+<script>
+const DATA = [{"cargo":"Distrital","nome":"Ana Paula Marra","numero":"20123","partido":"Podemos","raca":"Branca","simbolos":"⭐✏️","trajetoria":"Atuação no GDF na área social, assistência, empregabilidade e população vulnerável.","traj_vcm":"Não localizado.","propostas":"Segurança alimentar, Prato Cheio, Cartão Gás, restaurantes comunitários, creches e políticas sociais.","prop_vcm":"Expansão da Patrulha Maria da Penha para todas as regiões do DF, reforço de estrutura especializada e assistência jurídica célere.","link":"https://www.instagram.com/anapaulamarra/","link_label":"Instagram","atuacao_vcm":"Articulação institucional | Prevenção/agenda pública"},{"cargo":"Distrital","nome":"Anna Sebba","numero":"22061","partido":"PL","raca":"Branca","simbolos":"","trajetoria":"Comunicadora; ex-assessora parlamentar; experiência em PPPs no DF.","traj_vcm":"Não localizado.","propostas":"Trabalho, família e segurança.","prop_vcm":"Não localizado.","link":"https://www.instagram.com/annasebba/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Distrital","nome":"Bartíria – Coletivo Nossa Gente","numero":"18123","partido":"REDE","raca":"Parda","simbolos":"❤️⭐✏️","trajetoria":"Advogada; atuação comunitária, advocacia popular, cultura e participação social.","traj_vcm":"Atuação jurídica e pública relacionada a direitos das mulheres, medidas protetivas e violência doméstica.","propostas":"Programa estruturado em 18 compromissos.","prop_vcm":"Ampliação da rede de proteção e enfrentamento à violência doméstica.","link":"https://www.instagram.com/bartiria_brito/","link_label":"Instagram","atuacao_vcm":"Articulação institucional | Prevenção/agenda pública"},{"cargo":"Distrital","nome":"Crícia Martins","numero":"33777","partido":"Mobiliza","raca":"Parda","simbolos":"✏️","trajetoria":"Cantora religiosa e atuação comunitária.","traj_vcm":"Não localizada atuação específica suficientemente documentada.","propostas":"Proteção da infância, saúde mental, idosos, adoção, mães atípicas/PCD, drogadição e outros temas.","prop_vcm":"Não localizada proposta específica.","link":"https://www.instagram.com/criciamartinsoficial/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Distrital","nome":"Cris Nardes","numero":"10987","partido":"Republicanos","raca":"Branca","simbolos":"⭐✏️","trajetoria":"Atuação pública e programa de 2026 organizado em múltiplos eixos.","traj_vcm":"Não localizado histórico específico suficientemente documentado.","propostas":"Governança, saúde, famílias, comunidades, campo, economia e cidades.","prop_vcm":"Proposta relacionada ao exame/investigação de mortes de mulheres e feminicídio.","link":"https://www.instagram.com/crisnardesdf/","link_label":"Instagram","atuacao_vcm":"Fiscalização"},{"cargo":"Distrital","nome":"Dayse Amarilio","numero":"40222","partido":"PSB","raca":"Branca","simbolos":"❤️⭐✏️","trajetoria":"Deputada distrital; enfermeira; atuação legislativa e fiscalizatória, especialmente em saúde.","traj_vcm":"Diversas iniciativas legislativas sobre violência doméstica, Banco Vermelho, violência obstétrica e proteção de mulheres.","propostas":"Programa estruturado em diversos eixos.","prop_vcm":"Rota Única da Mulher, Recomeço DF, violência financeira, assédio e integração da rede de proteção.","link":"https://www.instagram.com/dayseamarilio/","link_label":"Instagram","atuacao_vcm":"Articulação institucional | Prevenção/agenda pública"},{"cargo":"Distrital","nome":"Dayse Hansa","numero":"13056","partido":"PT","raca":"Preta","simbolos":"⭐✏️","trajetoria":"Gestora cultural, produtora e artista; atuação em movimentos sociais.","traj_vcm":"Não localizada atuação anterior específica suficientemente documentada.","propostas":"Programa extenso, com 146 propostas em 19 eixos.","prop_vcm":"Eixo Mulheres inclui proteção e rota de saída da violência.","link":"https://www.instagram.com/daysehansa/","link_label":"Instagram","atuacao_vcm":"Articulação institucional | Prevenção/agenda pública"},{"cargo":"Distrital","nome":"Delegada Doutora Jane","numero":"10555","partido":"Republicanos","raca":"Preta","simbolos":"❤️","trajetoria":"Delegada de polícia e deputada distrital.","traj_vcm":"Atuação profissional e parlamentar relacionada à segurança pública e proteção de mulheres.","propostas":"Programa consolidado de 2026 não localizado nesta varredura.","prop_vcm":"Não localizado.","link":"https://www.instagram.com/doutorajanedf/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Distrital","nome":"Eliana Veterinária","numero":"18486","partido":"REDE","raca":"Branca","simbolos":"⭐✏️","trajetoria":"Médica-veterinária com atuação pública e programa próprio estruturado.","traj_vcm":"Não localizado histórico específico suficientemente documentado.","propostas":"Saúde Única, proteção animal, hospitais veterinários regionais, saúde mental e gestão pública.","prop_vcm":"Casas de acolhimento integradas para mulheres em situação de violência que tenham animais.","link":"https://www.elianaveterinaria.com.br/","link_label":"Site","atuacao_vcm":"Articulação institucional"},{"cargo":"Distrital","nome":"Ericka Filippelli","numero":"30100","partido":"NOVO","raca":"Branca","simbolos":"❤️","trajetoria":"Publicitária; ex-secretária da Mulher do DF e candidata em eleições anteriores.","traj_vcm":"Atuação institucional direta em políticas de enfrentamento à violência de gênero e doméstica, rede de proteção, Ceams e Nafavds.","propostas":"Não localizado programa consolidado.","prop_vcm":"Não localizado.","link":"https://www.instagram.com/erickafilippelli_/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Distrital","nome":"Jaqueline Silva","numero":"15900","partido":"MDB","raca":"Branca","simbolos":"❤️⭐","trajetoria":"Deputada distrital; produção legislativa e atuação social.","traj_vcm":"Atuação documentada em políticas e debates sobre direitos das mulheres, incluindo violência política de gênero.","propostas":"Continuidade de agenda parlamentar; programa consolidado não localizado.","prop_vcm":"Enfrentamento à violência política de gênero aparece expressamente em sua atuação e agenda.","link":"https://www.instagram.com/jaquelinesilvadf/","link_label":"Instagram","atuacao_vcm":"Prevenção/agenda pública"},{"cargo":"Distrital","nome":"Júlia Lucy","numero":"22190","partido":"PL","raca":"Branca","simbolos":"✏️","trajetoria":"Ex-deputada distrital.","traj_vcm":"Não localizado.","propostas":"Saúde, transporte, educação, segurança, desenvolvimento urbano e econômico, proteção animal, meio ambiente e fiscalização.","prop_vcm":"Não localizado.","link":"https://julialucy.com.br/","link_label":"Site","atuacao_vcm":"Não localizado"},{"cargo":"Distrital","nome":"Keka Bagno","numero":"50123","partido":"PSOL","raca":"Preta","simbolos":"❤️⭐✏️","trajetoria":"Militância em feminismo, direitos humanos, antirracismo e políticas sociais.","traj_vcm":"Enfrentamento às violências contra mulheres integra sua atuação feminista e de direitos humanos.","propostas":"Programa detalhado envolvendo serviços públicos, direitos sociais, mobilidade, saúde, educação, ambiente etc.","prop_vcm":"Políticas de enfrentamento às violências contra mulheres.","link":"https://www.instagram.com/kekabagno/","link_label":"Instagram","atuacao_vcm":"Prevenção/agenda pública"},{"cargo":"Distrital","nome":"Lúcia Carvalho","numero":"13111","partido":"PT","raca":"Branca","simbolos":"⭐✏️","trajetoria":"Servidora pública aposentada; atuação em educação e direitos.","traj_vcm":"Tema presente em suas bandeiras, mas sem evidência suficiente para marcar trajetória específica.","propostas":"Educação, servidores, idosos, direitos LGBTQIA+, inclusão, sustentabilidade e participação.","prop_vcm":"Fim da violência contra a mulher aparece expressamente entre os compromissos.","link":"https://www.instagram.com/luciacarvalho.13/","link_label":"Instagram","atuacao_vcm":"Prevenção/agenda pública"},{"cargo":"Distrital","nome":"Marcela Passamani","numero":"15555","partido":"MDB","raca":"Branca","simbolos":"❤️⭐✏️","trajetoria":"Ex-gestora pública; experiência na implementação de programas sociais.","traj_vcm":"Atuação vinculada ao programa Direito Delas, de apoio a vítimas de violência doméstica.","propostas":"Expansão e institucionalização de programas sociais.","prop_vcm":"Expandir o Direito Delas e transformá-lo em política assegurada por lei.","link":"https://www.instagram.com/marcelapassamanioficial/","link_label":"Instagram","atuacao_vcm":"Legislação | Articulação institucional"},{"cargo":"Distrital","nome":"Natty Vieira","numero":"50180","partido":"PSOL","raca":"Parda","simbolos":"✏️","trajetoria":"Atuação programática em tecnologia, transparência, justiça fiscal e território.","traj_vcm":"Não localizado.","propostas":"IA, Big Data e BI para fiscalização; educação em tecnologia; justiça fiscal e políticas territoriais.","prop_vcm":"Não localizado.","link":"https://www.instagram.com/nattyvieiradf/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Distrital","nome":"Perita Tirotti","numero":"14444","partido":"Missão","raca":"Branca","simbolos":"⭐✏️","trajetoria":"Empresária, perita judicial e advogada.","traj_vcm":"Não localizada atuação anterior específica.","propostas":"Programa detalhado de educação, segurança, saúde digital, infraestrutura, empreendedorismo etc.","prop_vcm":"Defesa pessoal para mulheres e meninas aparece entre as propostas associadas ao jiu-jitsu.","link":"https://www.instagram.com/peritatirotti/","link_label":"Instagram","atuacao_vcm":"Prevenção/agenda pública"},{"cargo":"Distrital","nome":"Profª Altaci Kokama","numero":"13133","partido":"PT","raca":"Indígena","simbolos":"","trajetoria":"Professora universitária; indígena Kokama.","traj_vcm":"Não localizado.","propostas":"Não localizado programa detalhado.","prop_vcm":"Não localizado.","link":"https://www.instagram.com/altacikokamadistritaldf/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Distrital","nome":"Rejane Costa","numero":"11001","partido":"PP","raca":"Branca","simbolos":"✏️","trajetoria":"Trajetória de 27 anos em gestão pública e projetos sociais.","traj_vcm":"Não localizado.","propostas":"Trabalho, limpeza urbana, saúde de proximidade e segurança comunitária.","prop_vcm":"Não localizado.","link":"https://rejanecostadf.com.br/","link_label":"Site","atuacao_vcm":"Não localizado"},{"cargo":"Distrital","nome":"Renata Daguiar","numero":"10789","partido":"Republicanos","raca":"Branca","simbolos":"⭐✏️","trajetoria":"Auditora de Finanças, mestre em Economia e atuação comunitária.","traj_vcm":"Há agenda de atendimento e autonomia das mulheres, mas sem evidência suficiente para trajetória específica de enfrentamento à violência.","propostas":"Terceiro setor, emprego 50+, juventude, saúde, TEA, gestão pública etc.","prop_vcm":"Centro Integrado de Cuidados da Mulher.","link":"https://www.instagram.com/renatadaguiardf/","link_label":"Instagram","atuacao_vcm":"Articulação institucional"},{"cargo":"Distrital","nome":"Sandra Bacelar","numero":"55100","partido":"PSD","raca":"Branca","simbolos":"","trajetoria":"Fonoaudióloga, jornalista e radialista; atuação reconhecida na causa autista e inclusão social.","traj_vcm":"Não localizado.","propostas":"Inclusão e autismo; programa eleitoral detalhado não localizado.","prop_vcm":"Não localizado.","link":"https://www.instagram.com/sandrabacelar/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Distrital","nome":"Telma Rufino","numero":"20222","partido":"Podemos","raca":"Parda","simbolos":"❤️⭐✏️","trajetoria":"Ex-deputada distrital e ex-administradora regional.","traj_vcm":"Presidiu CPI do Feminicídio e possui atuação legislativa relacionada à proteção de mulheres vítimas de violência.","propostas":"Mulheres, saúde, creches, famílias vulneráveis e infraestrutura.","prop_vcm":"Casa da Mulher nas RAs e implementação de recomendações da CPI do Feminicídio.","link":"https://www.instagram.com/telmarufinooficial/","link_label":"Instagram","atuacao_vcm":"Fiscalização | Articulação institucional"},{"cargo":"Distrital","nome":"Silene da Saúde","numero":"70111","partido":"Avante","raca":"Parda","simbolos":"✏️","trajetoria":"Servidora da Saúde do DF, bacharel em Direito e especialista em Gestão Pública.","traj_vcm":"Não localizado.","propostas":"Saúde, habitação, emprego, área social e servidores.","prop_vcm":"Não localizado.","link":"https://www.instagram.com/silenedasaude/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Distrital","nome":"Suzele Veloso","numero":"20200","partido":"Podemos","raca":"Parda","simbolos":"","trajetoria":"Advogada; produção própria em ECA, legislação do DF e Plano Distrital de Políticas para as Mulheres; candidata em 2022.","traj_vcm":"Não localizado.","propostas":"Não localizado programa substantivo.","prop_vcm":"Não localizado.","link":"https://www.instagram.com/suzeleveloso/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Distrital","nome":"Madu K","numero":"50700","partido":"PSOL","raca":"Preta","simbolos":"","trajetoria":"Mulher trans, preta, com trajetória política/social e candidatura anterior em 2022.","traj_vcm":"Não localizado com detalhe suficiente para ❤️.","propostas":"Agenda sobre serviço público, educação, transporte, saúde, juventude, periferia, cultura e inclusão.","prop_vcm":"Não localizado com detalhe suficiente para ⭐.","link":"","link_label":"","atuacao_vcm":"Não localizado"},{"cargo":"Distrital","nome":"Esteffany","numero":"35333","partido":"Democrata","raca":"Branca","simbolos":"","trajetoria":"Mulher trans, evangélica, feirante e ex-trabalhadora de serviços gerais.","traj_vcm":"Não localizado com detalhe suficiente para ❤️.","propostas":"Propostas sobre feiras, trabalhadores terceirizados e diversidade.","prop_vcm":"Não localizado com detalhe suficiente para ⭐.","link":"","link_label":"","atuacao_vcm":"Não localizado"},{"cargo":"Federal","nome":"Abadia","numero":"5566","partido":"PSD","raca":"Branca","simbolos":"","trajetoria":"Longa trajetória política: ex-deputada federal, vice-governadora e governadora do DF; Constituinte.","traj_vcm":"Não localizei atuação específica suficiente para ❤️.","propostas":"Creches noturnas, centros para idosos e mudanças na assistência social.","prop_vcm":"Não localizada proposta específica.","link":"https://www.instagram.com/mariaabadiaoficial/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Federal","nome":"Aguida Maria","numero":"2900","partido":"PCO","raca":"Branca","simbolos":"✏️","trajetoria":"Servidora pública aposentada, formada em Filosofia.","traj_vcm":"Não localizada atuação específica suficiente.","propostas":"Programa partidário com previdência, direitos trabalhistas, educação e serviços públicos.","prop_vcm":"Não localizada proposta específica.","link":"https://candidatos.pco.org.br/c/aguida-maria/","link_label":"Site","atuacao_vcm":"Não localizado"},{"cargo":"Federal","nome":"Ana Schramm","numero":"2999","partido":"PCO","raca":"Branca","simbolos":"✏️","trajetoria":"Pesquisadora e ativista em saúde, meio ambiente e direitos indígenas; integrante de coletivo de mulheres.","traj_vcm":"Atuação em organização de mulheres, mas sem evidência suficientemente específica de enfrentamento à violência.","propostas":"Saúde pública, direitos indígenas e meio ambiente.","prop_vcm":"Não localizada proposta específica.","link":"https://candidatos.pco.org.br/c/ana-schramm-2/","link_label":"Site","atuacao_vcm":"Não localizado"},{"cargo":"Federal","nome":"Carine Teixeira","numero":"3030","partido":"NOVO","raca":"Preta","simbolos":"✏️","trajetoria":"Advogada, empresária; primeira candidatura.","traj_vcm":"Não localizado.","propostas":"Plano de trabalho em políticas sociais, cidadania, simplificação de acesso a benefícios e fiscalização.","prop_vcm":"Não localizado.","link":"https://www.instagram.com/carineteixeira.adv/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Federal","nome":"Carol Fleury","numero":"5555","partido":"PSD","raca":"Parda","simbolos":"✏️","trajetoria":"Cientista política, experiência técnica na administração pública e na Secretaria do Entorno.","traj_vcm":"Não localizado.","propostas":"Mobilidade DF-Entorno, integração interfederativa, transporte, saúde integrada e educação.","prop_vcm":"Não localizado.","link":"https://www.instagram.com/carolfleuryoficial/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Federal","nome":"Carol Furlan","numero":"1086","partido":"Republicanos","raca":"Branca","simbolos":"❤️⭐✏️","trajetoria":"Mãe, atleta de judô e candidata pela primeira vez; campanha relaciona experiência pessoal de abuso à atuação pública.","traj_vcm":"Relata experiência pessoal como vítima e apresenta o enfrentamento à violência como eixo central de atuação.","propostas":"Programa estruturado em mulheres, crianças/famílias, esporte, serviço público e transparência.","prop_vcm":"Resposta mais rápida a pedidos de socorro; monitoramento de medidas protetivas; atendimento ampliado; inclusão produtiva de vítimas.","link":"https://www.instagram.com/carolinefurlan86/","link_label":"Instagram","atuacao_vcm":"Articulação institucional | Prevenção/agenda pública"},{"cargo":"Federal","nome":"Cris Britto","numero":"1022","partido":"Republicanos","raca":"Branca","simbolos":"❤️","trajetoria":"Advogada e ex-ministra da Mulher, da Família e dos Direitos Humanos.","traj_vcm":"Atuação institucional direta na política de proteção às mulheres, incluindo Casa da Mulher Brasileira.","propostas":"Não localizei programa individual de 2026 suficientemente detalhado.","prop_vcm":"Não localizei proposta eleitoral específica suficiente para ⭐.","link":"https://www.instagram.com/cristianebrittooficial/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Federal","nome":"Dani Freitas","numero":"4008","partido":"PSB","raca":"Branca","simbolos":"✏️","trajetoria":"Engenheira, analista do comportamento e mãe atípica.","traj_vcm":"Não localizado.","propostas":"Desenrola Atípico, residências inclusivas, educação especial e valorização de profissionais do cuidado.","prop_vcm":"Não localizado.","link":"https://www.instagram.com/danipordf/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Federal","nome":"Dra. Marina Noronha","numero":"1117","partido":"PP","raca":"Branca","simbolos":"✏️","trajetoria":"Médica e pesquisadora em doenças raras; atuação comunitária e na Cruz Vermelha.","traj_vcm":"Não localizado.","propostas":"Diagnóstico precoce, humanização do atendimento, estrutura do SUS e políticas para pessoas com doenças raras.","prop_vcm":"Não localizado.","link":"https://marinanoronha.com.br/","link_label":"Site","atuacao_vcm":"Não localizado"},{"cargo":"Federal","nome":"Hélvia Paranaguá","numero":"1522","partido":"MDB","raca":"Branca","simbolos":"⭐✏️","trajetoria":"Professora e ex-secretária de Educação do DF; quase 30 anos na educação pública.","traj_vcm":"Não localizei trajetória anterior específica suficiente para ❤️.","propostas":"Educação inclusiva, saúde na escola, integridade, valorização docente e revisão da LDB.","prop_vcm":"Propõe endurecer e aperfeiçoar a legislação contra violência física, moral, financeira, social e política contra mulheres.","link":"https://www.instagram.com/helviaparanagua/","link_label":"Instagram","atuacao_vcm":"Legislação"},{"cargo":"Federal","nome":"Letícia Leal","numero":"7710","partido":"Solidariedade","raca":"Branca","simbolos":"✏️","trajetoria":"Administradora; primeira candidatura.","traj_vcm":"Não localizado.","propostas":"Destinar 100% das emendas à saúde, fiscalização periódica, combate ao desperdício e redução de despesas do mandato.","prop_vcm":"Não localizado.","link":"https://www.instagram.com/leticialealdf/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Federal","nome":"Liza Lopes","numero":"1001","partido":"Republicanos","raca":"Branca","simbolos":"❤️⭐✏️","trajetoria":"Empresária; atuação de apoio a pessoas vulneráveis e mulheres.","traj_vcm":"Campanha relaciona experiência pessoal de violência sexual e relacionamento abusivo à atuação de apoio e proteção às mulheres.","propostas":"Programa detalhado em proteção, autonomia econômica, segurança, infância e famílias.","prop_vcm":"Proteção 24 Horas, autonomia econômica para vítimas, integração da rede de atendimento e apoio a famílias atingidas.","link":"https://lizalopes.com.br/","link_label":"Site","atuacao_vcm":"Articulação institucional | Prevenção/agenda pública"},{"cargo":"Federal","nome":"Ludmila Suaid","numero":"5005","partido":"PSOL","raca":"Parda","simbolos":"⭐","trajetoria":"Assistente social, mestre em Política Social, doula e servidora pública; trajetória em saúde, sistema prisional, mediação de conflitos, infância e adoção.","traj_vcm":"Trajetória relacionada a direitos e proteção social, mas sem evidência suficientemente específica para ❤️.","propostas":"Mulheres, parto humanizado, infância, proteção digital e políticas sociais.","prop_vcm":"Fortalecimento da rede de prevenção e combate ao feminicídio; ampliação de serviços especializados; educação preventiva.","link":"https://www.instagram.com/ludmilasuaid/","link_label":"Instagram","atuacao_vcm":"Articulação institucional | Prevenção/agenda pública"},{"cargo":"Federal","nome":"Márcia Abrahão","numero":"1331","partido":"PT","raca":"Branca","simbolos":"❤️","trajetoria":"Professora e ex-reitora da UnB; primeira mulher a ocupar a Reitoria; presidiu a Andifes.","traj_vcm":"Durante sua gestão, a UnB desenvolveu ações institucionais de enfrentamento à violência contra mulheres.","propostas":"Não localizei programa individual detalhado de 2026.","prop_vcm":"Não localizada proposta eleitoral específica suficiente para ⭐.","link":"https://www.instagram.com/marciaabrahaomoura/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Federal","nome":"Maria Amélia","numero":"2223","partido":"PL","raca":"Branca","simbolos":"✏️","trajetoria":"Empresária; primeira candidatura eleitoral registrada.","traj_vcm":"Não localizado.","propostas":"Plataforma com família, segurança, empreendedorismo, protagonismo feminino, educação e assistência.","prop_vcm":"Não localizada proposta específica de enfrentamento à violência.","link":"https://www.instagram.com/mariaamelia.df/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Federal","nome":"Mayara Noronha","numero":"2027","partido":"Podemos","raca":"Parda","simbolos":"","trajetoria":"Advogada e ex-secretária de Desenvolvimento Social do DF; atuação pública em políticas sociais.","traj_vcm":"Participou de debates e ações sobre acesso de mulheres em situação de violência à proteção estatal e autonomia financeira, mas sem evidência suficiente para ❤️.","propostas":"Defesa do Fundo Constitucional e fortalecimento das políticas sociais.","prop_vcm":"Não localizei proposta eleitoral específica suficiente para ⭐.","link":"https://www.instagram.com/mayara.noronharocha/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Federal","nome":"Mariana Naime","numero":"2201","partido":"PL","raca":"Parda","simbolos":"✏️","trajetoria":"Advogada; agenda especializada nas carreiras de segurança.","traj_vcm":"Não localizado.","propostas":"Programa Quem Protege o DF, com propostas para forças de segurança, saúde mental, habitação e famílias atípicas.","prop_vcm":"Não localizada proposta específica.","link":"https://www.instagram.com/mariana.naime/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Federal","nome":"Profa. Fátima Sousa","numero":"1230","partido":"PDT","raca":"Branca","simbolos":"✏️","trajetoria":"Professora, pesquisadora e especialista em saúde coletiva; já disputou outras eleições.","traj_vcm":"Não localizei trajetória específica suficiente para ❤️.","propostas":"SUS, educação pública, ciência, inovação, saúde mental, desigualdades territoriais e economia do cuidado.","prop_vcm":"Não localizada proposta específica.","link":"https://www.instagram.com/profatimasousa/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Federal","nome":"Raquel Medeiros","numero":"4000","partido":"PSB","raca":"Branca","simbolos":"✏️","trajetoria":"Empresária; candidatura associada a cuidado, inclusão e mulheres.","traj_vcm":"Não localizada atuação específica contra violência suficiente para ❤️.","propostas":"Mães atípicas, inclusão TEA, empreendedorismo feminino, mulheres pós-câncer e Observatório/Frente Parlamentar da Mulher.","prop_vcm":"Não localizada medida suficientemente específica para ⭐.","link":"https://www.instagram.com/raquelmedeirosdf/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Federal","nome":"Rita Ballock","numero":"3333","partido":"Mobiliza","raca":"Branca","simbolos":"✏️","trajetoria":"Atuação social, cultural e institucional; participação em organização internacional de mulheres.","traj_vcm":"Atuação com mulheres e meninas em vulnerabilidade, mas sem documentação específica suficiente para ❤️.","propostas":"Educação, cultura, participação popular, liberdade econômica e modernização do Estado.","prop_vcm":"Não localizada proposta específica.","link":"https://www.instagram.com/ritaballock33/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Federal","nome":"Rosilene Corrêa","numero":"1333","partido":"PT","raca":"Branca","simbolos":"❤️⭐","trajetoria":"Professora aposentada e dirigente sindical.","traj_vcm":"Atuação pública documentada no enfrentamento à violência contra mulheres e defesa da criminalização da misoginia.","propostas":"Educação pública, profissionais da educação, juventude, trabalho e redução das desigualdades.","prop_vcm":"Combate à violência contra mulheres aparece explicitamente em sua agenda de campanha.","link":"https://www.instagram.com/rosilenecorreadf/","link_label":"Instagram","atuacao_vcm":"Prevenção/agenda pública"},{"cargo":"Federal","nome":"Sandra Faraj","numero":"2277","partido":"PL","raca":"Branca","simbolos":"❤️✏️⚠️","trajetoria":"Ex-deputada distrital; produção legislativa em diversas áreas.","traj_vcm":"Autora do projeto que originou a Lei 6.022/2017, sobre banco de empregos para mulheres vítimas de violência doméstica e familiar.","propostas":"Liberdade de expressão, família, segurança, redução de impostos e penas mais duras para determinados crimes.","prop_vcm":"Não marquei ⭐ por falta de política específica de 2026 suficientemente clara.","link":"https://www.instagram.com/sandrafaraj/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Federal","nome":"Valdirene Tavares","numero":"1111","partido":"PP","raca":"Branca","simbolos":"✏️","trajetoria":"Experiência política anterior, inclusive como vereadora.","traj_vcm":"Não localizado.","propostas":"Onze compromissos envolvendo infância, famílias, mães atípicas, saúde da mulher e criança, educação, assistência e segurança.","prop_vcm":"Há propostas gerais de prevenção da violência e segurança, mas não conteúdo específico suficiente para ⭐.","link":"https://www.instagram.com/valdirenedf/","link_label":"Instagram","atuacao_vcm":"Não localizado"},{"cargo":"Federal","nome":"Vanessa É o Bicho","numero":"1324","partido":"PT","raca":"Parda","simbolos":"⭐✏️","trajetoria":"Servidora pública, pesquisadora e atuação institucional em direitos animais.","traj_vcm":"Não localizei trajetória pretérita específica suficiente para ❤️.","propostas":"Programa detalhado em proteção animal, meio ambiente, universidade pública e direitos das mulheres.","prop_vcm":"Frente explícita de prevenção e enfrentamento à violência contra a mulher, com proteção, acolhimento e integração da rede pública.","link":"https://www.instagram.com/vanessaeobicho/","link_label":"Instagram","atuacao_vcm":"Articulação institucional | Prevenção/agenda pública"},{"cargo":"Senado","nome":"Bia Kicis","numero":"223","partido":"PL","raca":"Branca","simbolos":"❤️","trajetoria":"Advogada e procuradora; deputada federal pelo DF desde 2019, com atuação legislativa extensa.","traj_vcm":"Em 2026, apresentou requerimentos na Comissão Permanente Mista de Combate à Violência contra a Mulher sobre proteção da integridade física, psicológica e moral de mulheres privadas de liberdade e policiais penais.","propostas":"Não foi localizado, nesta varredura, programa eleitoral de Senado 2026 suficientemente detalhado para receber ✏️.","prop_vcm":"Não foi localizada proposta eleitoral de 2026 suficientemente específica sobre enfrentamento à violência contra a mulher para receber ⭐.","link":"https://www.camara.leg.br/deputados/204374","link_label":"Câmara","atuacao_vcm":"Não localizado"},{"cargo":"Senado","nome":"Erika Kokay","numero":"131","partido":"PT","raca":"Branca","simbolos":"❤️","trajetoria":"Psicóloga, bancária e dirigente sindical; deputada distrital de 2003 a 2010 e deputada federal desde 2011.","traj_vcm":"Atuação legislativa documentada em 2026 sobre violência vicária, Casas da Mulher Brasileira, campanhas contra violência doméstica e o Sistema Nacional de Enfrentamento da Violência contra Meninas e Mulheres.","propostas":"Não foi localizado, nesta varredura, programa eleitoral de Senado 2026 suficientemente detalhado para receber ✏️.","prop_vcm":"A atuação legislativa atual é substantiva, mas não foi localizada proposta eleitoral de 2026 para o próximo mandato suficientemente distinta para receber ⭐.","link":"https://www.camara.leg.br/deputados/204464","link_label":"Câmara","atuacao_vcm":"Não localizado"},{"cargo":"Senado","nome":"Leila do Vôlei","numero":"123","partido":"PDT","raca":"Branca","simbolos":"❤️⭐✏️","trajetoria":"Ex-atleta; ex-secretária de Esporte e Lazer do DF; senadora desde 2019. Foi Líder da Bancada Feminina e Procuradora da Mulher.","traj_vcm":"Mandato documenta destinação de recursos para projetos voltados a mulheres, Centros de Referência, prevenção à violência e atuação institucional na pauta feminina.","propostas":"Plataforma de 2026 com 123 compromissos em 12 frentes, incluindo eixo específico 'Mulheres mais protegidas e independentes'.","prop_vcm":"Fortalecer a Lei Maria da Penha; Delegacias da Mulher 24h; monitoramento eletrônico de agressores; ampliar rede de acolhimento e Centros de Referência; financiamento estável; proteção digital; criminalização da misoginia e autonomia econômica.","link":"https://leiladovolei.com/propostas/","link_label":"Site","atuacao_vcm":"Legislação | Orçamento | Articulação institucional | Prevenção/agenda pública"},{"cargo":"Senado","nome":"Michelle Bolsonaro","numero":"222","partido":"PL","raca":"Branca","simbolos":"⭐✏️","trajetoria":"Ex-primeira-dama do Brasil (2019–2022); atuação pública em inclusão, comunidade surda, voluntariado e pessoas em situação de vulnerabilidade; presidiu o PL Mulher de 2023 a 2026.","traj_vcm":"Foi localizada participação, como primeira-dama, em ação de apoio a mulheres em situação de vulnerabilidade e violência, mas não um conjunto de atuação pessoal específica suficientemente robusto para ❤️.","propostas":"Plataforma de 2026 organizada em oito eixos: saúde, inclusão, segurança, educação, trabalho, proteção social, voluntariado e mulheres.","prop_vcm":"Fortalecer prevenção e combate à violência; rede de proteção às vítimas; recuperação da autonomia de mulheres vítimas de violência; proteção contra violência e assédio e integração entre serviços.","link":"https://michellebolsonaro222.com.br/propostas/","link_label":"Site","atuacao_vcm":"Legislação | Orçamento | Articulação institucional | Prevenção/agenda pública"}];
+let currentCargo = "Todos";
+let sortKey = "nome", sortDir = 1;
+const tbody = document.getElementById("tbody");
+const search = document.getElementById("search");
+const party = document.getElementById("party");
+const race = document.getElementById("race");
+const marker = document.getElementById("marker");
+const violence = document.getElementById("violence");
+const favorites = document.getElementById("favorites");
+const actionType = document.getElementById("actionType");
+const FAV_KEY = "quero-deputadas-mulheres-favoritas-v1";
+let favs = new Set(JSON.parse(localStorage.getItem(FAV_KEY) || "[]"));
+
+function favId(d){ return `${d.cargo}|${d.numero}|${d.nome}`; }
+function saveFavs(){ localStorage.setItem(FAV_KEY, JSON.stringify([...favs])); }
+function toggleFav(id){
+  if (favs.has(id)) favs.delete(id); else favs.add(id);
+  saveFavs();
+  render();
+}
+const shown = document.getElementById("shown");
+
+function unique(key) {
+  return [...new Set(DATA.map(d => d[key]).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'pt-BR'));
+}
+for (const p of unique("partido")) {
+  const o=document.createElement("option"); o.value=p; o.textContent=p; party.appendChild(o);
+}
+for (const r of unique("raca")) {
+  const o=document.createElement("option"); o.value=r; o.textContent=r; race.appendChild(o);
+}
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'})[m]);
+}
+function matches(d) {
+  if (currentCargo !== "Todos" && d.cargo !== currentCargo) return false;
+  if (party.value && d.partido !== party.value) return false;
+  if (race.value && d.raca !== race.value) return false;
+  if (marker.value && !d.simbolos.includes(marker.value)) return false;
+  if (violence.value === "sim" && !(d.simbolos.includes("❤️") || d.simbolos.includes("⭐"))) return false;
+  if (violence.value === "nao" && (d.simbolos.includes("❤️") || d.simbolos.includes("⭐"))) return false;
+  if (favorites.value === "sim" && !favs.has(favId(d))) return false;
+  if (actionType.value && !String(d.atuacao_vcm || "").includes(actionType.value)) return false;
+  const q = search.value.trim().toLowerCase();
+  if (q) {
+    const blob = Object.values(d).join(" ").toLowerCase();
+    if (!blob.includes(q)) return false;
+  }
+  return true;
+}
+function render() {
+  let rows = DATA.filter(matches);
+  rows.sort((a,b) => {
+    const av = String(a[sortKey] ?? ""), bv = String(b[sortKey] ?? "");
+    return av.localeCompare(bv,'pt-BR',{numeric:true}) * sortDir;
+  });
+  shown.textContent = rows.length;
+  tbody.innerHTML = rows.map(d => `
+    <tr>
+      <td class="fav-cell"><button class="fav-btn ${favs.has(favId(d)) ? 'active' : ''}" onclick="toggleFav('${favId(d).replace(/'/g,"\'")}')" title="${favs.has(favId(d)) ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}">${favs.has(favId(d)) ? '★' : '☆'}</button></td>
+      <td>${esc(d.cargo)}</td>
+      <td class="name">${esc(d.nome)}</td>
+      <td class="num">${esc(d.numero)}</td>
+      <td class="partido">${esc(d.partido)}</td>
+      <td class="raca">${esc(d.raca)}</td>
+      <td class="badges">${d.simbolos || '<span class="muted">—</span>'}</td>
+      <td>${esc(d.trajetoria)}</td>
+      <td>${esc(d.traj_vcm)}</td>
+      <td>${esc(d.propostas)}</td>
+      <td>${esc(d.prop_vcm)}</td>
+      <td>${esc(d.atuacao_vcm)}</td>
+      <td class="link">${d.link ? `<a href="${esc(d.link)}" target="_blank" rel="noopener">${esc(d.link_label || 'Abrir')}</a>` : '<span class="muted">Não localizado</span>'}</td>
+    </tr>`).join("");
+}
+document.querySelectorAll(".tab").forEach(btn => btn.addEventListener("click", () => {
+  document.querySelectorAll(".tab").forEach(b => b.classList.remove("active"));
+  btn.classList.add("active");
+  currentCargo = btn.dataset.cargo;
+  render();
+}));
+[search,party,race,marker,violence,favorites,actionType].forEach(el => el.addEventListener("input", render));
+document.querySelectorAll("th[data-key]").forEach(th => th.addEventListener("click", () => {
+  const key = th.dataset.key;
+  if (sortKey === key) sortDir *= -1; else { sortKey = key; sortDir = 1; }
+  render();
+}));
+render();
+</script>
+</body>
+</html>
